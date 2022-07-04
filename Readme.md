@@ -112,6 +112,10 @@ $ yarn seed
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
 
+# Login do admin
+$ email: admin@email.com
+$ password: 102938
+
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
