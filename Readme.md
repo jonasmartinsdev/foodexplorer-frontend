@@ -120,7 +120,7 @@ $ yarn dev
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/jonasmartinsdev/FoodExplorer.git>
+$ git clone <https://github.com/jonasmartinsdev/foodexplorer-frontend-.gitt>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd fe
