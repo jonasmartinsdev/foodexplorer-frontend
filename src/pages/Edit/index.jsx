@@ -79,6 +79,14 @@ export function Edit() {
 
     return navigate('/');
   }
+  async function handleRemovePlate() {
+    const isConfirm = confirm('Tem certeza que deseja remover?');
+
+    if (isConfirm) {
+      await api.delete(`/plates/${params.id}`);
+      return navigate('/');
+    }
+  }
 
   return (
     <>
@@ -157,7 +165,10 @@ export function Edit() {
               defaultValue={description}
             />
 
-            <Button title="Adicionar pedido" onClick={handleEditPlate} />
+            <div className="button-wrapper">
+              <Button title="Remover pedido" onClick={handleRemovePlate} />
+              <Button title="Adicionar pedido" onClick={handleEditPlate} />
+            </div>
           </Form>
         </Content>
       </Container>

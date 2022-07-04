@@ -26,10 +26,17 @@ export const Form = styled.form`
   flex-direction: column;
   gap: 3.2rem;
 
-  > button {
-    margin-left: auto;
-    width: 35.7rem;
-    background: rgba(255, 255, 255, 0.1);
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+
+    button {
+      flex: 50%;
+    }
+    button:nth-child(2) {
+      background: rgba(255, 255, 255, 0.1);
+    }
   }
 `;
 
