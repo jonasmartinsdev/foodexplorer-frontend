@@ -27,10 +27,6 @@ Tabela de conteúdos
    * [Tecnologias](#-tecnologias)
      * [WebSite](#user-content-website--react)
      * [Server](#user-content-server--nodejs)
-   * [Contribuidores](#-contribuidores)
-   * [Como contribuir no projeto](#-como-contribuir-no-projeto)
-   * [Autor](#-autor)
-   * [Licença](#user-content--licença)
 <!--te-->
 
 ---
